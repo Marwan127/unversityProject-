@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(10, 10, 15);
+  color: white;
+  font-family: Arial, sans-serif;
+  
+  text-align: center;
+ 
+}
+
+div{
+  color: rgb(88, 166, 255);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  margin: 30px 0 15px 0;
+}
+
+h1 {
+  color: rgb(0, 220, 180);
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+
+form {
+  background-color: rgb(15, 16, 24);
+  border: 1px solid rgb(45, 50, 70);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 80%;
+  margin-left: calc(10% - 25px);
+}
+
+label {
+  color: rgb(210, 210, 225);
+  font-size: 17px;
+  font-weight: bold;
+}
+
+input {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(45, 50, 70);
+  padding: 6px;
+  margin: auto;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: rgb(88, 166, 255);
+  color: white;
+  border: 1px solid rgb(0, 255, 0);
+  font-weight: bold;
+  width: 100px;
+}
+
+a {
+  color: rgb(0, 220, 180);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+input{
+  height: 80%;
+  width: 80%;
+  max-width: 200px;
+}
+
+#button {
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
